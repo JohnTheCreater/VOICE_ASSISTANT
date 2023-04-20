@@ -18,7 +18,7 @@ mixer.init()
 model_to_use = "text-curie-001"  # lowest token cost
 
 r = sr.Recognizer()
-openai.api_key = ("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")
+openai.api_key = ( "your_open_ai_api_key")
 
 # Initialize AWS Polly client
 client = boto3.client('polly', region_name='us-west-2')
